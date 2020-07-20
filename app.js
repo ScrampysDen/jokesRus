@@ -3,7 +3,11 @@ document.getElementById('zone').addEventListener('mouseenter', run);
 function run(e) {
 
   var x = 0;
-  var txt = 'her breasts give spoiled milk.';
+  var txt = `Fact 1: The boy has never left his parents house.
+Fact 2: He smokes more weed then bob marley and is the most miserable, chemically imbalanced basket case in western mass.
+Fact 3: After fighting with a "friend" he will call someone he hasn't spoke to in years or hasn't met ever in his life seeking friendship
+Fact 4: His mom slept with over 500 guys and has more kids than alex and his broken family know about.
+More facts on bottom cards`;
   var speed = 100;
   function runOptOne() {
     if (x < txt.length) {
@@ -32,7 +36,10 @@ function runTwo(e) {
 
   var y = 0;
   var speedTwo = 100;
-  var txtTwo = "when she walked in front of the TV, I missed three episodes";
+  var txtTwo = `Fact 5: He was left in Ney york city becuase he argued with the friends he use to have. They couldn't deal with his attitude problem
+Fact 6: He was left in west virginia becuase of his attitude problem one again, this time trying to fight the person who brought him there for free.
+Fact 7: He tried to fight his friend Ryans other friends with they invited him out to go bowling... why.. because they are older then him and they were busting his chops. harmless fun what real men do and what real men can stand/... unlike this pussy aka: Mr Bi-Polar
+Fact 8: Can dish it out but cant take it. This fact has been proven over the past decade.`;
   function runOptTwo() {
     if (y < txtTwo.length) {
       document.getElementById('message-box-2').innerHTML += txtTwo.charAt(y);
